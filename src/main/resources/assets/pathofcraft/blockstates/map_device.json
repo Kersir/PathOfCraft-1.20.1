@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pathofcraft:block/map_device"
+    }
+  }
+}

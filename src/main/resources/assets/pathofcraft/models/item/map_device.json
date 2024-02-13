@@ -1,6 +1,3 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "pathofcraft:item/map_device"
-  }
+  "parent": "pathofcraft:block/map_device"
 }

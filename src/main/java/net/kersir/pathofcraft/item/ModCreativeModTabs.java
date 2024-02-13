@@ -1,6 +1,7 @@
 package net.kersir.pathofcraft.item;
 
 import net.kersir.pathofcraft.PathOfCraft;
+import net.kersir.pathofcraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,7 +19,8 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.pathofcraft_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MAP_T1.get());
-                        output.accept(ModItems.MAP_DEVICE.get());
+
+                        output.accept(ModBlocks.MAP_DEVICE.get());
                     })
                     .build());
 

@@ -1,6 +1,7 @@
 package net.kersir.pathofcraft;
 
 import com.mojang.logging.LogUtils;
+import net.kersir.pathofcraft.block.ModBlocks;
 import net.kersir.pathofcraft.item.ModCreativeModTabs;
 import net.kersir.pathofcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,7 @@ public class PathOfCraft
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -46,7 +48,6 @@ public class PathOfCraft
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.MAP_T1);
-            event.accept(ModItems.MAP_DEVICE);
         }
     }
 
