@@ -1,6 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/orientable",
   "textures": {
-    "all": "pathofcraft:block/map_device"
+    "up": "pathofcraft:block/map_device_top",
+    "down": "pathofcraft:block/map_device_side3",
+    "south": "pathofcraft:block/map_device_side1",
+    "north": "pathofcraft:block/map_device_side3",
+    "west": "pathofcraft:block/map_device_side2",
+    "east": "pathofcraft:block/map_device_side3",
+    "particle": "pathofcraft:block/map_device_side2"
   }
 }
