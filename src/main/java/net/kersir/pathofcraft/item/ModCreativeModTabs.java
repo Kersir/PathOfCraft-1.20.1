@@ -19,6 +19,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.pathofcraft_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MAP_T1.get());
+                        output.accept(ModItems.Exalted_Orb.get());
 
                         output.accept(ModBlocks.MAP_DEVICE.get());
                     })

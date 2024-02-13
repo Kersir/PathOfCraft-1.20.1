@@ -14,6 +14,10 @@ public class ModItems {
     public static final RegistryObject<Item> MAP_T1 = ITEMS.register("map_t1",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Exalted_Orb = ITEMS.register("exalted_orb",
+            () -> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
