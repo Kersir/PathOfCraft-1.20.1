@@ -2,6 +2,7 @@ Poecraft TODO
 ========================
 
 ## Basic rpg mechanics
+* [ ] Stats menu
 * [ ] Hp bar should be numeric and start not from default numbers. Likely from ~100 for easer scale
 * [ ] Int Dex Str
 * [ ] Int Dex Str will affect stats
