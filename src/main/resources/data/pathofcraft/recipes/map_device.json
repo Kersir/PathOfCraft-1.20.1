@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DGD",
+    "LRL",
+    "LLL"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "R": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "pathofcraft:map_device",
+    "count": 1
+  }
+}
