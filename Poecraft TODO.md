@@ -6,6 +6,8 @@ Poecraft TODO
 * [ ] Hp bar should be numeric and start not from default numbers. Likely from ~100 for easer scale
 * [ ] Int Dex Str
 * [ ] Int Dex Str will affect stats
+* [ ] Remake vanilla gear craft (e.g. handle for stone sword is crafted from tree that grows only in t4 map etc with other gear)
+* [ ] Make Vanilla+ gear (e.g. wooden dagger, wooden longsword)
 * * [ ] Dmg for certain weapon
 * * [ ] *Mana + and % and regen*
 * * [ ] Hp + and % and regen
