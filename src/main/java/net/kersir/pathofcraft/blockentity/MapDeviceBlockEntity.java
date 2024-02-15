@@ -43,3 +43,4 @@ public class MapDeviceBlockEntity extends BlockEntity {
         return this.counter;
     }
 }
+

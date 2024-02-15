@@ -16,4 +16,5 @@ public class BlockEntityInit {
             BLOCK_ENTITES.register("map_device_block_entity",
                     () -> BlockEntityType.Builder.of(MapDeviceBlockEntity::new, ModBlocks.MAP_DEVICE.get())
                             .build(null));
+
 }

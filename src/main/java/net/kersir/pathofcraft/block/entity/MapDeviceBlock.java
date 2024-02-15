@@ -59,3 +59,4 @@ public class MapDeviceBlock extends HorizontalDirectionalBlock implements Entity
         return defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite());
     }
 }
+
