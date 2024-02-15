@@ -44,7 +44,7 @@ public class PathOfCraft
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Add the example block item to the INGREDIENTS tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.MAP_T1);

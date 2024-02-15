@@ -11,5 +11,11 @@
   "key.categories.pathofcraft": "Path Of Craft",
 
   "key.pathofcraft.open_stats_gui_key": "Open Stats GUI",
-  "message.pathofcraft.open_stats_gui_key_pressed": "Stats opened"
+  "message.pathofcraft.open_stats_gui_key_pressed": "Stats opened",
+
+  "gui.pathofcraft.stats_screen": "Character Stats",
+  "gui.pathofcraft.stats_screen_srtnum": "Strength:",
+  "gui.pathofcraft.stats_screen_dexnum": "Dexterity:",
+  "gui.pathofcraft.stats_screen_intnum": "Intelligence:"
+
 }
