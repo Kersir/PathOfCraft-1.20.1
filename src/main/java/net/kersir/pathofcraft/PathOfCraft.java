@@ -2,6 +2,7 @@ package net.kersir.pathofcraft;
 
 import com.mojang.logging.LogUtils;
 import net.kersir.pathofcraft.block.ModBlocks;
+import net.kersir.pathofcraft.init.BlockEntityInit;
 import net.kersir.pathofcraft.item.ModCreativeModTabs;
 import net.kersir.pathofcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,12 +34,19 @@ public class PathOfCraft
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        BlockEntityInit.BLOCK_ENTITES.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
+
+
+
+
+
+
 
     private void commonSetup(final FMLCommonSetupEvent event) {
 

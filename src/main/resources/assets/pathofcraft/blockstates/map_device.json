@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "pathofcraft:block/map_device"
-    }
+    "facing=north": { "model": "pathofcraft:block/map_device" },
+    "facing=east": { "model": "pathofcraft:block/map_device", "y": 90 },
+    "facing=south": { "model": "pathofcraft:block/map_device", "y": 180 },
+    "facing=west": { "model": "pathofcraft:block/map_device", "y": 270 }
   }
 }
