@@ -1,6 +1,7 @@
 package net.kersir.pathofcraft.block;
 
 import net.kersir.pathofcraft.PathOfCraft;
+import net.kersir.pathofcraft.block.entity.MapDeviceBlock;
 import net.kersir.pathofcraft.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -19,13 +20,14 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, PathOfCraft.MOD_ID);
 
-    public static final RegistryObject<Block> MAP_DEVICE = registerBlock("map_device",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+    public static final RegistryObject<MapDeviceBlock> MAP_DEVICE = registerBlock("map_device",
+            () -> new MapDeviceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
                     .sound(SoundType.AMETHYST)
                     .strength(5f,20f)
                     .requiresCorrectToolForDrops()
                     .lightLevel(state -> 10)
             ));
+
 
 
 

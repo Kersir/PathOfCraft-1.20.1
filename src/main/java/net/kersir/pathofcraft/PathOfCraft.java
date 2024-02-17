@@ -2,6 +2,7 @@ package net.kersir.pathofcraft;
 
 import com.mojang.logging.LogUtils;
 import net.kersir.pathofcraft.block.ModBlocks;
+import net.kersir.pathofcraft.init.BlockEntityInit;
 import net.kersir.pathofcraft.item.ModCreativeModTabs;
 import net.kersir.pathofcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class PathOfCraft
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        BlockEntityInit.BLOCK_ENTITES.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -40,11 +42,18 @@ public class PathOfCraft
         modEventBus.addListener(this::addCreative);
     }
 
+
+
+
+
+
+
+
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Add the example block item to the INGREDIENTS tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.MAP_T1);
