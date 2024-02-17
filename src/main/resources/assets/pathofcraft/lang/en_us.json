@@ -3,6 +3,7 @@
   "item.pathofcraft.exalted_orb": "Exalted Orb",
 
   "block.pathofcraft.map_device": "Map Device",
+  "block.pathofcraft.tele_block_t1": "Teleport Block T1",
 
   "creativetab.pathofcraft_tab": "Path Of Craft",
 
@@ -17,5 +18,4 @@
   "gui.pathofcraft.stats_screen_srtnum": "Strength:",
   "gui.pathofcraft.stats_screen_dexnum": "Dexterity:",
   "gui.pathofcraft.stats_screen_intnum": "Intelligence:"
-
 }

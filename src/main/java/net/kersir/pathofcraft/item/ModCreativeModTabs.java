@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.Exalted_Orb.get());
 
                         output.accept(ModBlocks.MAP_DEVICE.get());
+                        output.accept(ModBlocks.TELE_BLOCK_T1.get());
                     })
                     .build());
 

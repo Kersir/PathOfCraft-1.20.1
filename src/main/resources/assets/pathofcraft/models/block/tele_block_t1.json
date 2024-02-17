@@ -1,0 +1,8 @@
+{
+  "render_type": "minecraft:translucent",
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pathofcraft:block/tele_block_t1",
+    "particle": "minecraft:block/glass"
+  }
+}

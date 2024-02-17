@@ -5,9 +5,7 @@ import net.kersir.pathofcraft.block.entity.MapDeviceBlock;
 import net.kersir.pathofcraft.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,6 +28,12 @@ public class ModBlocks {
 
 
 
+    public static final RegistryObject<Block> TELE_BLOCK_T1 = registerBlock("tele_block_t1",
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)
+                    .sound(SoundType.AMETHYST)
+                    .lightLevel(state -> 10)
+                    .noCollission()
+            ));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
